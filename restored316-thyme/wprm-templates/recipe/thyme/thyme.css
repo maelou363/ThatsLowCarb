@@ -1,0 +1,93 @@
+.wprm-recipe-template-thyme {
+	border-style: solid; /* wprm_border_style type=border */
+	border-width: 1px; /* wprm_border_width type=size */
+	border-color: #eee; /* wprm_border type=color */
+	border-radius: 0px; /* wprm_border_radius type=size */
+	padding: 20px;
+	margin: 70px 30px;
+	overflow: visible;
+}
+
+.wprm-header {
+	background: #f4f4f4;
+	padding: 30px 0 50px;
+}
+
+.wprm-recipe-name {
+	text-align: center;
+	font-size: 35px;
+}
+
+.wprm-recipe-image img {
+	border-radius: 200px;
+	margin-top: -75px;
+	position: relative;
+}
+
+.wprm-recipe-rating,
+.wprm-recipe-summary {
+	text-align: center;
+}
+
+.wprm-recipe-print,
+.wprm-recipe-jump {
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.wprm-recipe-link.wprm-recipe-link-button {
+	margin-top: -20px;
+}
+
+.wprm-recipe-icon svg {
+	width: 1em;
+}
+
+.wprm-recipe-times-container,
+.wprm-container {
+	display: block;
+	text-align: center;
+}
+
+.wprm-recipe-times-container {
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	padding: 6px 10px 10px;
+}
+
+.wprm-container {
+	background: #f4f4f4;
+	padding: 6px 10px 10px;
+	margin-top: 20px;
+}
+
+.wprm-recipe-details-label {
+	font-style: italic;
+	font-size: 12px;
+	text-transform: lowercase;
+}
+
+.wprm-recipe-time,
+.wprm-recipe-course,
+.wprm-recipe-cuisine,
+.wprm-recipe-servings,
+.wprm-recipe-details,
+.wprm-recipe-cost {
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 12px;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+.wprm-recipe-block-container-inline {
+	margin-right: 10px;
+}
+
+h3.wprm-recipe-header {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
